@@ -24,3 +24,4 @@ QE_to_DeepMD/
 │
 └── 01.train/
 └── input.json # DeepMD training config
+---
