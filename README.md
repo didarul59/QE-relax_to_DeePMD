@@ -13,6 +13,4 @@ This repository provides a full pipeline to convert Quantum ESPRESSO (QE) VC-Rel
 6. You’re good to go!  
 
 ---
-
-### Author  
-Md. Didarul Islam  
+ 
