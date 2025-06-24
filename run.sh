@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Run the Python scripts in order
-python3 source/collect.py
-python3 source/to.py
-python3 source/rename.py
-python3 source/reshape.py
-python3 source/combine.py
-python3 source/flat.py
-python3 source/train_valid.py
-python3 source/virial.py
+python3 script/collect.py
+python3 script/to.py
+python3 script/rename.py
+python3 script/reshape.py
+python3 script/combine.py
+python3 script/flat.py
+python3 script/train_valid.py
+python3 script/virial.py
 rm -r combined_flat_data/ data/ output_steps/
 # Create the 01.train folder
 mkdir -p 01.train
