@@ -16,7 +16,6 @@ mkdir -p 01.train
 # Write the input.json file
 cat > 01.train/input.json << EOF
 {
-{
     "_comment": " model parameters",
     "model": {
 	"type_map":	["H", "C"],
@@ -81,12 +80,9 @@ cat > 01.train/input.json << EOF
 
     "_comment":		"that's all"
 }
-
-}
 EOF
 mkdir -p 02.lmp
 cat > 02.lmp/conf.lmp << EOF
-{
 5 atoms
 2 atom types
    0.0000000000   10.1142592220 xlo xhi
@@ -101,10 +97,8 @@ Atoms # atomic
      3      1    5.6173700000    5.7721300000    4.6488800000
      4      1    5.4695700000    4.1304600000    5.3741500000
      5      2    5.1628400000    4.7731400000    4.5439000000
-}
 EOF
 cat > 02.lmp/in.lammps << EOF
-{
 units metal
 atom_style atomic
 boundary p p p
@@ -138,7 +132,6 @@ thermo 100
 dump 1 all custom 100 ch4.dump id type x y z
 
 run 5000
-}
 EOF
 
 echo "All done."
