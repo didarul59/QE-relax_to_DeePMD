@@ -14,4 +14,3 @@ This repository provides a full pipeline to convert Quantum ESPRESSO (QE) output
 6. You’re good to go!  
 
 ---
-If you find this useful, please ⭐️ the repo and feel free to open an issue with feedback or questions.  
